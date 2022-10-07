@@ -27,7 +27,6 @@ export default function App() {
       >
         깊은 복사
       </button>
-      <p>Start editing to see some magic happen :)</p>
     </div>
   );
 }
