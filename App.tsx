@@ -9,7 +9,7 @@ export default function App() {
       {temp.name}
       <button
         onClick={() => {
-          const shallowCopy = temp;
+          const shallowCopy = temp
           shallowCopy.name = 'albur';
           console.log(shallowCopy);
           setTemp(shallowCopy);
