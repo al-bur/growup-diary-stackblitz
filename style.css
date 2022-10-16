@@ -1,3 +1,61 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container,
+.input-container-vw {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}
+
+.input-container input {
+  width: 80%;
+}
+
+.input-container button {
+  width: 20%;
+}
+
+.input-container-vw input {
+  width: 60vw;
+}
+
+.input-container-vw button {
+  width: 20vw;
+}
+
+.input-container-rem {
+  width: 53rem;
+  display: flex;
+  justify-content: center;
+}
+
+.input-container-rem input {
+  width: 40rem;
+}
+
+.input-container-rem button {
+  width: 13rem;
+}
+
+.window-size-notification {
+  position: fixed;
+  bottom: 20vh;
 }
