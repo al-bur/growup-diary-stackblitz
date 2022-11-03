@@ -1,4 +1,5 @@
-# growup-diary
+# react-hook-form
 
-마음껏 공부하고 실험해보자!
-각각의 내용은 branch를 보면 확인할 수 있습니다!!
+## 동기
+
+- 과연, react-hook-form은 어떻게 form을 관리하는 지 회원가입 창을 만들어서 실험해보자!
