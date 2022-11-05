@@ -1,3 +1,9 @@
-# growup-diary-stackblitz
+# 깊은 복사와 얕은 복사에 따른 setState 결과 차이
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-sonu6f)
+## 결과
+
+얕은 복사를 한 후에 내부 프로퍼티를 바꾸고 이를 setState에 전달해주어 호출해주면 같은 참조값을 나타내므로, 리렌더링이 발생되지 않는다.
+
+깊은 복사는 아예 새로운 객체를 만드는 것이기 때문에, 이전과 다른 참조값이 생성됨. 그래서, setState에 인자로 전달해주면, 이전과 다른 값임을 react가 인지하고 리렌더링 발생시킴
+
+setState는 얕은 비교만 하기 때문!
