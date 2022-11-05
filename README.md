@@ -1,4 +1,15 @@
-# growup-diary
+# immutable props
 
-마음껏 공부하고 실험해보자!
-각각의 내용은 branch를 보면 확인할 수 있습니다!!
+## 동기
+
+props는 immutable한가?
+
+## 결과
+
+props 자체로 받아서 사용하면, immutable 하도록 만들어놓았다~
+
+```typescript
+
+Cannot assign to read only property 'name' of object '#<Object>'
+
+```
